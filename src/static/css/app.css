@@ -1,0 +1,71 @@
+@import '~antd/dist/antd.css';
+
+#sider {
+    position: fixed;
+    height: 100vh;
+    z-index: 2
+}
+
+#sider .logo {
+    height: 32px;
+    border-radius: 6px;
+    margin: 16px;
+    color: #999999;
+    overflow: hidden;
+}
+
+#sider .ant-layout-sider-collapsed .anticon {
+    font-size: 16px;
+}
+
+#sider .ant-layout-sider-collapsed .nav-text {
+    display: none;
+}
+
+#trigger {
+    position: relative;
+    width: 100%
+}
+
+#trigger i {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color .3s;
+    position: absolute;
+    right: -55px;
+}
+
+#trigger i:hover {
+    color: #108ee9;
+}
+
+#header {
+    background: #fff;
+    padding: 0 20px;
+    width: 100%;
+    position: fixed;
+    border-bottom: 1px solid #ddd;
+    z-index: 1;
+}
+#header .header-menu{
+    float: right;
+    line-height: 62px;
+    border: None;
+}
+#header .header-menu a{
+    width: 100%;
+}
+
+
+#content {
+    margin: 80px 20px 24px 20px;
+    padding: 24px;
+    background: #fff;
+    min-height: 1000px
+}
+
+#footer{
+    text-align: center;
+}
